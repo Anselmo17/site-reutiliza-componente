@@ -1,0 +1,13 @@
+<nav class="menu">
+  <button mat-button [matMenuTriggerFor]="menu" class="btn-acao-menu">
+    Clique aqui e navegue no Menu do site
+  </button>
+  <mat-menu #menu="matMenu">
+    <button class="btn-menu" mat-menu-item routerLink="/home">Home </button>
+    <!-- /cadastrar-pedidos -->
+    <button class="btn-menu" mat-menu-item routerLink="#">Cadastrar Pedidos</button>
+    <button class="btn-menu" mat-menu-item routerLink="/quem-somos">Quem Somos</button>
+  </mat-menu>
+</nav>
+
+<mat-divider></mat-divider>

@@ -1,0 +1,29 @@
+
+  
+  <mat-grid-list cols="1" rowHeight="28:1" >
+  <section class="contatos">
+    <div class="card-footer">
+      <h2>Nossos Contatos</h2>
+      <ul *ngFor="let contato of contatos">
+        <li>Nome: {{contato.nome}}</li>
+        <li>Telefone: {{contato.tel}}</li>
+      </ul>
+    </div>
+  
+    <div class="card-footer">
+      <h2>Nossas redes sociais </h2>
+      <ul *ngFor="let rede of redesSociais">
+        <li>{{rede}}</li>
+      </ul>
+    </div>
+  
+    <div class="card-footer">
+      <h2>Parceiros </h2>
+      <ul *ngFor="let parceiro of parceiros">
+        <li>{{parceiro}}</li>
+      </ul>
+    </div>
+  </section>
+  </mat-grid-list>
+
+  <mat-divider></mat-divider>

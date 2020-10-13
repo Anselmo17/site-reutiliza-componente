@@ -1,0 +1,15 @@
+{
+  "listContatos":[{
+      "nome": "Joao Silva",
+      "tel": "xxxx-xxxx"
+    }, 
+    {"nome": "Marta Pereira Silva",
+      "tel": "xxxx-xxxx"
+    }],
+   "redesSociais":[
+    "Facebook", "Instagram","Linkedin","Twitter"  
+   ],
+    "parceiros":[
+      "Rockeset","ProgramadorBR","Cod3 Cursos","Torne-se Programador"
+    ]
+}

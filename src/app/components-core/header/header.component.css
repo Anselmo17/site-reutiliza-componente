@@ -1,0 +1,21 @@
+.menu {
+  background: black;
+  height: 5vh;
+  font-size: 1em;
+  padding:10px
+}
+
+.btn-acao-menu:hover{
+border-radius: 15px;
+background:red ;
+color:white;
+}
+/*
+.menu:hover{
+  color:yellowgreen;
+}*/
+
+.btn-menu:hover {
+  background:black ;
+  color:yellowgreen;
+}

@@ -1,0 +1,32 @@
+.contatos {
+  font-size:1em;
+  display: flex;
+  flex-wrap: wrap;
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  padding:15px;
+  background: black;
+  height: 28vh;
+  bottom: 0px;
+  
+}
+
+.card-footer {
+  width: 32%;
+  font-size: .9em;
+  margin:3px;
+  padding-left: 2px;
+  background:white;
+  text-align: left;
+  border-radius: 40px;
+  padding:5px;
+}
+
+.card-footer h2 {
+  padding-left: 15px;
+}
+
+.card-footer ul li {
+  list-style:none;
+}
